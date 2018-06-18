@@ -83,19 +83,19 @@ nav .navbar-collapse {
     font-size: 70px;
         margin-top: 0;
 }
-    .navbar-nav {
-        margin-top: 40%;
-        font-size: 40px;
+    ul.navbar-nav {
+        margin-top: 10%;
+        
     }
     nav  {
-    background-color: rgba(250, 251, 228, 0) ;
+    background-color: rgba(250, 251, 228, 1) ;
     }
-    .collapse {
+    .navbar-collapse {
         background-color: rgba(250, 251, 228, 1) ;
     }
     .main h1 {
         font-size: 60px;
-        margin-top: 20%;
+        margin-top: 8%;
         text-align: center;
     }
     .main img {
@@ -110,8 +110,7 @@ nav .navbar-collapse {
     }
     .story p {
         font-family: open-sans;
-        margin-top: 0;
-        font-stretch: normal;
+        font-size: 15px;
     }
     .carousel li p {
         font-size: 18px;
@@ -119,7 +118,24 @@ nav .navbar-collapse {
     section{
         height: 100%;
     }
-    
+    .seoul img {
+        margin-top: -62px;
+    }
+    .busan {
+        margin-top: 20px;
+    }
+    .jeju img {
+        margin-top: ;
+    }
+    .story.empty {
+        height: 100%;
+    }
+    .trip {
+        height: 100%;
+    }
+    li p {
+        size: 10px;
+    }
      
 }
 section {
@@ -147,7 +163,7 @@ svg .road {
 .empty {
     background-color: #FAFBE4;
     z-index: 1;
-    height: 300vh;
+    height: 100%;
     width: 100%;
     position: absolute;
 }
@@ -191,7 +207,7 @@ svg .road {
     font-size: 60px;
     text-align: center;
     color: #FAFBE4;
-    margin-top: 21%;
+    margin-top: 41%;
 }
 
 .carousel img {
@@ -212,4 +228,7 @@ li p {
 .trip ul {
     margin-top: 3%;
     color: #FAFBE4;
+}
+p b {
+    font-weight: 500;
 }
