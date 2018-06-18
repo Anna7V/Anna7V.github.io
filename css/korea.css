@@ -1,5 +1,5 @@
 body {
-    font-family: open sans;
+    font-family: open-sans;
 }
 .nav-link {
     font-family: oswald;
@@ -70,6 +70,10 @@ nav .navbar-collapse {
     section {
         height:100%;
     }
+    .road {
+        display: none;
+    }
+     
 }
  
 @media screen and (max-width: 768px){
@@ -136,6 +140,9 @@ nav .navbar-collapse {
     li p {
         size: 10px;
     }
+    .road {
+        display: none;
+    }
      
 }
 section {
@@ -148,6 +155,8 @@ section {
 .story {
     position: relative;
     width: 100%;
+    font-family: open-sans;
+    font-size: 20px;
 }
 svg .road {
     height: 400vh;
@@ -197,7 +206,6 @@ svg .road {
     background-color: #D7C2B6;
     z-index: 10;
     display: block;
-    width: 100%;
     height: 100%;
     position: relative;
 }
